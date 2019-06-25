@@ -1,0 +1,44 @@
+.octodex {
+    display: flex;
+    justify-content: center;
+}
+.octocat {
+    
+}
+.octocat > a > img {
+   height: 275px;
+   width: 275px;
+   margin: 10px;
+   border: solid 2px rgb(240, 240, 240);
+   
+}
+
+.image-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-number {
+    float: left;
+}
+
+.image-caption {
+    display: flex;
+    
+}
+
+.image-caption > span  {
+   margin: -10px 5px 0px 5px;
+   
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.authors > li > a > img{
+    width:20px;
+    margin: -10px 10px 0px 0px;
+}
